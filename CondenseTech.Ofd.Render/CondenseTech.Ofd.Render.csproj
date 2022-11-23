@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net7.0;net6.0;net5.0;netstandard2.1;netframework4.8;netcoreapp3.1</TargetFrameworks>
+	  <RootNamespace>CondenseTech.Ofd.Render</RootNamespace>
+	  <VersionPrefix>1.0.0</VersionPrefix>
+	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	  <FileVersion>1.0.0.0</FileVersion>
+	  <PackageTags>OFD,Render,Image</PackageTags>
+	  <Platforms>AnyCPU;x64;x86</Platforms>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Authors>Ragnarokkr.Xia</Authors>
+	  <Company>CondenseTech</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="2.88.3" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.88.3" />
+	<PackageReference Include="CondenseTech.JBig2Decoder" Version="1.0.0" />
+	<PackageReference Include="CondenseTech.Ofd" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
